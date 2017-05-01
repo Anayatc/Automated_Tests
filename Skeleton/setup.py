@@ -5,7 +5,7 @@ except ImportError:
 
 
 config = {
-    'description': 'My_Project',
+    'description': 'ex47',
     'author': 'Anayat Chowdhury',
     'url': 'URL to get it at.',
     'download_url': 'Where to download it.',
