@@ -20,6 +20,11 @@ def test_room_paths():
     assert_equal(center.go('south'), south)
 
 
+def test_weapons():
+    gun = Room("Gun", "Test gun is weapon")
+    assert_equal(gun.weapons, {})
+
+
 def test_map():
     start = Room("Start", "You can go west and down a hole.")
     west = Room("Trees", "There are trees here, you can go east.")
